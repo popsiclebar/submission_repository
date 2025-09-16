@@ -7,6 +7,7 @@ const Button = (props) => {
   )
 }
 
+/*
 const Statistics = (props) => {
     if (props.text === 'positive') {
       if (props.value === 'NaN%') {
@@ -22,6 +23,7 @@ const Statistics = (props) => {
       }
   }
 }
+*/
 
 const StatisticLine = (props) => {
   return <div>{props.text} {props.value}</div>
@@ -93,7 +95,7 @@ const App = () => {
           </tbody>
         </table>
       )}
-      
+
     </div>
   )
 }
